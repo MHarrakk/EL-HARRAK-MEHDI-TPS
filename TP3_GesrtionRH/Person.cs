@@ -6,11 +6,18 @@ using System.Threading.Tasks;
 
 namespace TP3_GesrtionRH
 {
-    public abstract class  Person
+    public abstract class Person
     {
         private int code;
         private string nom;
         private string prenom;
+
+        protected Person(int code, string nom, string prenom)
+        {
+            this.code = code;
+            this.nom = nom;
+            this.prenom = prenom;
+        }
 
         public int Code
         {
@@ -28,5 +35,5 @@ namespace TP3_GesrtionRH
             set { prenom = value; }
         }
     }
-    
+
 }
