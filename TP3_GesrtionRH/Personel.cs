@@ -12,7 +12,7 @@ namespace TP3_GesrtionRH
         private double salaire;
         private double prime;
 
-        protected Personnel(int bureau, double salaire,double prime):base(code, nom, prenom)
+        public Personel(int bureau, double salaire,double prime, string code, string nom,string prenom):base(code, nom, prenom)
         {
             this.bureau = bureau;
             this.salaire = salaire; 
