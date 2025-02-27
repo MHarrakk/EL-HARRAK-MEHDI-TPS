@@ -29,7 +29,7 @@ namespace TP3_GesrtionRH
         }
         public void Afficher_etd()
         {
-            Console.WriteLine($"[Etudiant] Code: {Code}, Nom: {Nom}, Prénom: {Prenom}, Niveau: {Niveau}, Moyenne: {Moyenne}");
+            Console.WriteLine($"Code:{Code}  Nom:{Nom}  Prenom:{Prenom}  Niveau:{Niveau}  Moyenne annuelle:{Moyenne}");
         }
     }
 }
