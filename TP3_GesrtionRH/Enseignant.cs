@@ -36,5 +36,23 @@ namespace TP3_GestionRH
             get { return heuresSupp; }
             set { heuresSupp = value; }
         }
+
+        public Dictionary<string, List<Etudiant>> Groupes
+        {
+            get { return groupes; }
+        }
+
+        public void Afficher_ens()
+        {
+            Console.WriteLine($"Liste des groupes et etudiants du professeur Mr.{Nom} {Prenom}");
+            foreach(var key in groupes.Keys)
+            {
+                Console.WriteLine($"{key}");
+                foreach(var item in groupes[key])
+                {
+                    item.Afficher_etd();
+                }
+            }
+        }
     }
 }
