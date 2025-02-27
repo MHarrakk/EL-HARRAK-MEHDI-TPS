@@ -12,7 +12,7 @@ namespace TP3_GesrtionRH
         private string nom;
         private string prenom;
 
-        protected Person(int code, string nom, string prenom)
+        public Person(int code, string nom, string prenom)
         {
             this.code = code;
             this.nom = nom;
