@@ -12,6 +12,13 @@ namespace TP3_GesrtionRH
         private string nom;
         private string prenom;
 
+        public Person(int code, string nom, string prenom)
+        {
+            this.code = code;
+            this.nom = nom;
+            this.prenom = prenom;
+        }
+
         public int Code
         {
             get { return code; }
