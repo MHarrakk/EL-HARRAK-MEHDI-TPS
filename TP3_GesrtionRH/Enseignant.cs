@@ -36,5 +36,10 @@ namespace TP3_GestionRH
             get { return heuresSupp; }
             set { heuresSupp = value; }
         }
+
+        public override double CalculerSalaire()
+        {
+            return Salaire + (int)grade * heuresSupp +Prime;
+        }
     }
 }

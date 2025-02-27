@@ -27,5 +27,9 @@ namespace TP3_GesrtionRH
             get { return moyenne; }
             set { moyenne = value; }
         }
+        public void Afficher_etd()
+        {
+            Console.WriteLine($"[Etudiant] Code: {Code}, Nom: {Nom}, Prénom: {Prenom}, Niveau: {Niveau}, Moyenne: {Moyenne}");
+        }
     }
 }

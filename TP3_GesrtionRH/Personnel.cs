@@ -35,6 +35,7 @@ namespace TP3_GesrtionRH
             get { return prime; }
             set { prime = value; }
         }
+        public abstract double CalculerSalaire();
     }
 
 }
