@@ -11,7 +11,7 @@ namespace TP3_GesrtionRH
         private string niveau;
         private double moyenne;
 
-        public Etudiant(int code, string nom, string prenom,string niveau,double moyenne) : base(code, nom, prenom)
+        public Etudiant(string code, string nom, string prenom,string niveau,double moyenne) : base(code, nom, prenom)
         {
             this.niveau = niveau;
             this.moyenne = moyenne;

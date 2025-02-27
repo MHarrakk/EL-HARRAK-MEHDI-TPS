@@ -27,5 +27,14 @@ namespace TP3_GesrtionRH
             get { return etudiants; }
         }
 
+        public bool AjouterEtudiant(Etudiant etudiant) 
+        {
+            if (etudiant != null && !this.etudiants.Contains(etudiant))
+            {
+                this.etudiants.Add(etudiant);
+                return true;
+            }
+            return false;
+        }
     }
 }
