@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TP3_GesrtionRH
 {
-    public abstract class  Person
+    public abstract class Person
     {
         private int code;
         private string nom;
@@ -35,5 +35,5 @@ namespace TP3_GesrtionRH
             set { prenom = value; }
         }
     }
-    
+
 }
