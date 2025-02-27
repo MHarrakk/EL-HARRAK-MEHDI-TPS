@@ -6,20 +6,20 @@ using System.Threading.Tasks;
 
 namespace TP3_GesrtionRH
 {
-    public abstract class Personel : Person
+    public abstract class Personnel : Person
     {
-        private int bureau;
+        private string bureau;
         private double salaire;
         private double prime;
 
-        public Personel(int bureau, double salaire,double prime, string code, string nom,string prenom):base(code, nom, prenom)
+        public Personnel(string code, string nom, string prenom,string bureau, double salaire,double prime):base(code, nom, prenom)
         {
             this.bureau = bureau;
             this.salaire = salaire; 
             this.prime = prime;
         } 
 
-        public int Bureau {  
+        public string Bureau {  
             get { return bureau; }
             set { bureau = value; } 
         }
