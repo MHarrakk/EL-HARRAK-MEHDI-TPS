@@ -8,8 +8,8 @@ namespace TP1_Gestion_Employes
 {
     class Employee
     {
-        private String nom;
-        private String prenom;
+        private string nom;
+        private string prenom;
         private float salaire;
         private string poste;
         private DateOnly date_embauche;
