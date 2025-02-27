@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace TP3_GesrtionRH
 {
-    class Etudiant : Person
+    class Etudiant: Person
     {
         private string niveau;
         private double moyenne;
 
-        public Etudiant(int code, string nom, string prenom, string niveau, double moyenne) : base(code, nom, prenom)
+        public Etudiant(int code, string nom, string prenom,string niveau,double moyenne) : base(code, nom, prenom)
         {
             this.niveau = niveau;
             this.moyenne = moyenne;
